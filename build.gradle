@@ -23,6 +23,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    runtime 'ch.qos.logback:logback-classic:1.2.3'
     compile 'ca.mcgill.sable:soot:3.0.0'
     compile name:'soot-infoflow'
     compile name:'soot-infoflow-android'
